@@ -17,10 +17,10 @@ To configure & run it locally: follow the below steps
 2.	Click on installer based on your OS type
 
 <h2>Setup Cassandra[NOSQL] . Execute below script</h2>
-1.	get the DB script from https://academy.datastax.com/planet-cassandra/cassandra and execute in your local DB
+1.	get the DB script from https://github.com/bibinkt/ProductService/blob/master/cassandraScript.txt and execute in your local DB
 
 <h2>For Running UX layer</h2>
-1.	Clone the repo using git clone https://github.com/bibinkt/ProductService.git
+1.	Clone the repo using git clone https://github.com/bibinkt/UXLayer.git
 2.	Run "npm install" to install the dependencies.
 3.	Run "node server.js" to start the local web server
 4.  If your Gateway & microservice server has not configured then plz point this application login flow to inbuild Fake server.
