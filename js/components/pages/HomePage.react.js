@@ -27,7 +27,7 @@ class HomePage extends Component {
 							<h1>Welcome to Login Flow!</h1>
 						)}
 						<p>This initiative is basically to demonstrate the end to end application architecture including microservices ,API gateway and a powerfull UX layer</p>
-						<p>To get the code behind this application, go to <a href="https://github.com/bibinkt">Github</a></p>
+						<p>To get the code behind this application, go to <a href="https://github.com/bibinkt/UXLayer.git">Github</a></p>
 						<p>If your Gateway & microservice server has not configured then plz point this application login flow to Fakerequest.js . </p>
 						<p>To point to the fake response server , uncomment line number 62 & 130 from actions/AppActions.js</p>
 						{loggedIn ? (
@@ -40,7 +40,6 @@ class HomePage extends Component {
 						)}
 					</section>
 					<section>
-						<p>To have a look at the code behind this application, go to <a href="https://github.com/bibinkt">Github</a></p>
 						<p>To configure & run it locally: follow the below steps</p>
 						<h2> Install Node V6.9.1 </h2>
 						<ol>
