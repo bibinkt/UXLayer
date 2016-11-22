@@ -27,7 +27,7 @@ To configure & run it locally: follow the below steps
 5.  To point to the fake response server , uncomment line number 62 & 130 from actions/AppActions.js
 
 <h2>For Running API gateway</h2>
-1.https://github.com/bibinkt/nodeAPIGateway/blob/master/README.md
+ 1. Go to https://github.com/bibinkt/nodeAPIGateway/blob/master/README.md
 
 <h2>For Running Microservices</h2>
  1. Go to https://github.com/bibinkt/ProductService/blob/master/ReadMe.md
