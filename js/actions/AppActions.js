@@ -59,7 +59,7 @@ export function login(username, password) {
         return;
       }
       // Use auth.js to fake a request
-      // auth.loginFake(username, password, (success, err) => {
+       //auth.loginFake(username, password, (success, err) => {
       auth.login(username, password, (success, err) => {
         // When the request is finished, hide the loading indicator
         dispatch(sendingRequest(false));
@@ -127,7 +127,7 @@ export function register(username, password) {
         return;
       }
       // Use auth.js to fake a request
-      // auth.registerFake(username, password, (success, err) => {
+       //auth.registerFake(username, password, (success, err) => {
       auth.register(username, password, (success, err) => {
         // When the request is finished, hide the loading indicator
         dispatch(sendingRequest(false));

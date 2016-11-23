@@ -136,7 +136,7 @@ var auth = {
       return;
     }
     // Post a fake request (see below)
-    request.post('/login', { username, password }, (response) => {
+    request.post('/loginFake', { username, password }, (response) => {
       // If the user was authenticated successfully, save a random token to the
       // localStorage
       if (response.authenticated) {
@@ -156,11 +156,12 @@ var auth = {
    * @param  {Function} callback Called after a user was registered on the remote server
    */
   registerFake(username, password, callback) {
+    console.log("i am here");
     // Post a fake request
-    request.post('/register', { username, password }, (response) => {
+    request.post('/registerFake', { username, password }, (response) => {
       // If the user was successfully registered, log them in
       if (response.registered === true) {
-        this.login(username, password, callback);
+        this.loginFake(username, password, callback);
       } else {
         // If there was a problem registering, show the error
         callback(false, response.error);

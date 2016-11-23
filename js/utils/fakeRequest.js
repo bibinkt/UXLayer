@@ -16,10 +16,10 @@ var fakeRequest = {
     // to simulate network latency
     setTimeout(() => {
       switch (endpoint) {
-        case '/login':
+        case '/loginFake':
           server.login(data.username, data.password, callback);
           break;
-        case '/register':
+        case '/registerFake':
           server.register(data.username, data.password, callback);
           break;
         case '/logout':
