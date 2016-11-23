@@ -1,7 +1,11 @@
 # UXLayer -> API gateway -> Microservices
 
 This initiative is basically to demonstrate the end to end application architecture including microservices,
-API gateway and a powerfull frontend layer.
+API gateway and a lightweight frontend layer. 
+
+Below Diagram shows the complete tech stack included on each layer
+
+![image](https://github.com/bibinkt/UXLayer/blob/master/Arch.png)
 
 To configure & run it locally: follow the below steps
 
